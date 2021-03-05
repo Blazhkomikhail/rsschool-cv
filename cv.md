@@ -21,3 +21,6 @@ Got the experience of implementation user validation and registration.
 ### Education 
 **06.2018 - 09.2018** Courses on studying JavaScript at «Spalah» computer school;  
 **02.2018 – 05.2018** Courses HTML and CSS at «Hillel» computer school;
+
+### Additional information 
+B1 English level
