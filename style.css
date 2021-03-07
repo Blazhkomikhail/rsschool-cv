@@ -68,6 +68,11 @@ main {
   width: 100%;
 }
 
+hr {
+  max-width: 600px;
+  margin-bottom: 15px;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -75,9 +80,6 @@ main {
 
 .objective {
   text-align: center;
-
-  background-color: #efefef;
-  border-radius: 3px;
 }
 
 .objective p {
@@ -86,7 +88,6 @@ main {
 
 .experience-container {
   display: flex;
-  margin-top: 15px;
 }
 
 .experience-decor-wrap {
@@ -120,8 +121,34 @@ main {
   margin-bottom: 15px;
 }
 
-aside {
-  width: 340px;
+.experience h2,
+.education h2, 
+.additional h2 {
+  margin-left: 5px;
+}
+
+.education ul, 
+.additional p {
+  margin-left: 15px;
+}
+
+.skills {
+  margin-top: -5px;
+  padding-top: 5px;
+  width: 370px;
+  height: 520px;
+  background-color: #efefef;
+  border-radius: 5px;
+  padding-left: 15px;
+  text-align: center;
+}
+
+.skills h2 {
+  margin-bottom: 5px;
+}
+
+.skills-list {
+  margin-bottom: 15px;
 }
 
 footer {
