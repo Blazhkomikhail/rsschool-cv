@@ -18,10 +18,40 @@ ul {
 }
 
 header {
+  padding-top: 30px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #262626;
+  color: #fff;
+  box-shadow: 4px 1px 8px #262626;
+  border-radius: 3px;
+}
+
+.avatar-img {
+  max-width: 200px;
+  border-radius: 100px;
+  margin-bottom: 30px;
+}
+
+.main-information {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.icons-wrapper {
   margin-top: 30px;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+
+  width: 100%;
+}
+
+.header-icon {
+  width: 32px;
 }
 
 .skills-list li,
@@ -33,10 +63,6 @@ header {
 .skills-list li:nth-child(1),
 .tools-list li:nth-child(1) {
   margin-left: 0;
-}
-
-.avatar-img {
-  max-width: 200px;
 }
 
 .footer-school-logo-picture,
