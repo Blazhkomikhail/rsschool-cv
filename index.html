@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="style.css">
     <title>CV</title>
 </head>
@@ -12,22 +14,66 @@
     <img class="avatar-img" src="./photo.jpg" alt="Cv-photo">
     <ul class="main-information">
       <li><h1>Blazhko Mikhail</h1></li>
-      <li><em>Junior Front-End Developer</em></li>
+      <li>Junior Front-End Developer</li>
       <li>Dnipro, Ukraine</li>
-      <li class="icons-wrapper">
-        <a href="https://www.facebook.com/profile.php?id=100003254044571" target="_blank"><img class="header-facebook-icon header-icon" src="./icons/fb sqr.svg" alt="Facebook-icon"></a>
-        <a href="https://github.com/Blazhkomikhail" target="_blank"><img class="header-github-icon header-icon" src="./icons/github sqr.svg" alt="Github-icon"></a>
-        <a href="mailto:michelin8585@gmail.com"><img class="header-mail-icon header-icon" src="./icons/mail sqr.svg" alt="Mail-icon"></a>
+      <li>
+        <div class="social-icons-wrapper">
+          <a href="https://www.facebook.com/profile.php?id=100003254044571" target="_blank"><img class="social-icon" src="./icons/fb sqr.svg" alt="Facebook-icon"></a>
+          <a href="mailto:michelin8585@gmail.com" target="_blank"><img class="social-icon" src="./icons/mail sqr.svg" alt="Mail-icon"></a>
+          <a href="https://github.com/Blazhkomikhail" target="_blank"><img class="social-icon" src="./icons/github sqr.svg" alt="Github-icon"></a>
+        </div>
       </li>
     </ul>
   </header>
 
-  <main>
-    <section class="objective">
-      <h2>Objective</h2>
-        <strong>Self-improvement and getting a junior Front-End developer position.</strong>
-    </section>
-    <section class="skills">
+  <div class="container">
+    <main>
+      <section class="objective">
+        <h2>Objective</h2>
+        <p><strong>Self-improvement and getting a junior Front-End developer position.</strong></p>
+      </section>
+      <section class="experience">
+        <h2>Experience</h2>
+        <hr>
+        <div class="experience-container">
+          <div class="experience-decor-wrap">
+            <span class="dot"></span>
+            <span class="line"></span>
+            <span class="dot"></span>
+            <span class="line"></span>
+          </div>
+     
+          <ul class="experience-items">
+            <li class="item">
+              <b>Participation in the EPAM University online</b><br>
+              <a href="https://github.com/Blazhkomikhail/FL-13" target="_blank">https://github.com/Blazhkomikhail/FL-13</a>
+              <p>Got the top 20 among more than 500 participants.</p>
+            </li>
+            <li class="item">
+              <b>Participation in the Hillel Evo project, in role of Front-End Developer</b><br>
+              <a href="https://github.com/Blazhkomikhail/market-drive" target="_blank">https://github.com/Blazhkomikhail/market-drive</a>
+              <p>Got the experience of implementation user validation and registration. </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="education">
+        <h2>Education</h2>
+        <ul>
+          <li>
+            <b>06.2018 – 09.2018</b> Courses on studying JavaScript at «Spalah» computer school;
+          </li>
+          <li>
+            <b>02.2018 – 05.2018</b> Courses HTML and CSS at «Hillel» computer school;
+          </li>
+        </ul>
+      </section>
+      <section class="additional">
+        <h2>Additional information</h2>
+        <p>B1 English level</p>
+      </section>
+    </main>
+    <aside class="skills">
       <h2>Skills</h2>
         <ul>
           <li> <strong>Technologies stack:</strong>
@@ -35,13 +81,13 @@
               <li>JavaScript (ES5/ES6)</li>
               <li>HTML/ HTML5</li>
               <li>CSS</li>
-              <li>Ajax (Fetch)</li>
+              <li>SCSS</li>
+              <li>Bootstrap</li>
+              <li>BEM</li>
               <li>DOM</li>
               <li>BOM</li>
-              <li>SCSS</li>
-              <li>BEM</li>
+              <li>Ajax (Fetch)</li>
               <li>OOP</li>
-              <li>Bootstrap</li>
               <li>GitHub</li>
             </ul>
           </li>
@@ -54,48 +100,19 @@
             </ul>
           </li>
         </ul>
-    </section>
-    <section class="experience">
-      <h2>Experience</h2>
-      <figure>
-        <figcaption>Participation in the EPAM University online</figcaption>
-        <a href="https://github.com/Blazhkomikhail/FL-13" target="_blank">https://github.com/Blazhkomikhail/FL-13</a>
-        <p>Got the top 20 among more than 500 participants.</p>
-      </figure>
-      <figure>
-        <figcaption>Participation in the Hillel Evo project, in role of Front-End Developer</figcaption>
-        <a href="https://github.com/Blazhkomikhail/market-drive" target="_blank">https://github.com/Blazhkomikhail/market-drive</a>
-        <p>Got the experience of implementation user validation and registration. </p>
-      </figure>
-    </section>
-    <section class="education">
-      <h2>Education</h2>
-      <ul>
-        <li>
-          <b>06.2018 – 09.2018</b> Courses on studying JavaScript at «Spalah» computer school;
-        </li>
-        <li>
-          <b>02.2018 – 05.2018</b> Courses HTML and CSS at «Hillel» computer school;
-        </li>
-      </ul>
-    </section>
-    <section class="additional">
-      <h2>Additional information</h2>
-      <p>B1 English level</p>
-    </section>
-  </main>
+    </aside>
+  </div>
 
   <footer>
-    <a href="https://github.com/Blazhkomikhail" target="_blank">
-      <img class="footer-github-logo" src="https://cdn.worldvectorlogo.com/logos/github-icon.svg" alt="">
-    </a>
+    <div class="social-icons-wrapper">
+      <a href="https://www.facebook.com/profile.php?id=100003254044571" target="_blank"><img class="social-icon" src="./icons/fb sqr.svg" alt="Facebook-icon"></a>
+      <a href="mailto:michelin8585@gmail.com" target="_blank"><img class="social-icon" src="./icons/mail sqr.svg" alt="Mail-icon"></a>
+      <a href="https://github.com/Blazhkomikhail" target="_blank"><img class="social-icon" src="./icons/github sqr.svg" alt="Github-icon"></a>
+    </div>
     <a href="https://rs.school/js/" target="_blank">
       <img class="footer-school-logo-picture" src="https://rs.school/images/rs_school_js.svg" alt="School-logo">
     </a>
-    <a href="#">
-      <img class="footer-youtube-logo" src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" alt="Youtube-logo">
-    </a>
-    <time>2021</time>
+    
   </footer>
 </body>
 </html>
