@@ -24,6 +24,17 @@ header {
   justify-content: space-between;
 }
 
+.skills-list li,
+.tools-list li {
+  display: inline;
+  margin-left: 5px;
+}
+
+.skills-list li:nth-child(1),
+.tools-list li:nth-child(1) {
+  margin-left: 0;
+}
+
 .avatar-img {
   max-width: 200px;
 }
